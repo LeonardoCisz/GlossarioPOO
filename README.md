@@ -203,10 +203,11 @@ Relacinamento de Agregação
 ========
 Uma classe composta por outra classe é um relacionamento de agregação, porém na agregação, um objeto que compõe a classe pode ser utilizado por outras instancias, na agregação, com uma associação parte-todo, mesmo sem o todo, a parte pode continuar a existir.
 Na agregação, outras classes podem obter a referência dos objetos que compõem a classe, usando geralmente os métodos getters.
-
-
+**Exemplo agregação:**
+![Alt text](https://i.imgur.com/GkJTUr0.gif "Exemplo agregação")
 
 Relacionamento de Composição
 ========
 Composição é um tipo de associação mais forte que a agregação, pois a composição é um relacionamento caracterizado como parte-todo, mas em caso de composição o todo, ele é responsável pelo ciclo de vida da parte, sendo assim a composição é aplicada quando a parte não faz sentido existir sem o todo e quando o objeto que representa o todo for destruido a parte também deverá ser destruída. 
-
+**Exemplo Composição:**
+![Alt text](https://i.imgur.com/ABAYOZf.gif "Exemplo agregação")
