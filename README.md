@@ -121,11 +121,18 @@ public class Main {
 
 Escopo de objeto
 ========
+No escopo de objeto, um atriuto ou método existe para o sistema como um todo. Por exeplo, uma váriavel definida fora do escopo da classe, pode ser acessada por todas as classes.
 Caso não seja utilizada a palavra *static*, se define como Escopo de objeto qualquer atributo ou método criado.
+
 
 Palavra reservada new
 ========
-*New*, tem por função instânciar um objeto a partir de uma classe, podendo ser instânciado por uma váriavel ou não.
+*New*, tem por função instânciar um objeto a partir de uma classe, podendo ser instânciado por uma váriavel ou não.  
+Também usado para iniciar Arrays.
+```java
+//O new está sendo usado para criar uma nova Array
+ArrayList<Aluno> ListaAlunos = new ArrayList();
+```
 
 Palavra reservada instanciof
 ========
