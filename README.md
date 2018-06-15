@@ -15,8 +15,8 @@
    * [Palavra reservada public/private](#palavra-reservada-public-e-private)
    * [Palavra reservada final](#palavra-reservada-final)
    * [Relacionamento de dependência](#relacionamento-de-dependencia)
-   * [Relacinamento de Agregação](#relacionamento-de-agregacao)
-   * [Relacionamento de Composição](#relacionamento-de-composicao)
+   * [Relacinamento de Agregação](#relacionamento-de-agregação)
+   * [Relacionamento de Composição](#relacionamento-de-composção)
    
 Descrição
 ========
@@ -59,7 +59,7 @@ public class Main {
     }
 }
 ```
-Getters/Setters
+Getters e Setters
 ========
 Getters pegam um valor contido em uma váriavel definida como privada, é usando um método publico Get para conseguir acesso ao valor dessa váriavel.
 Setters definem o valor de uma váriavel privada, é usado um metodo publico Set para se definir o valor de uma váriavel definida como priváda.
@@ -75,7 +75,7 @@ public void setNome(String nome) {
 ```
 Usasse "This" dentro do método para informar qual váriavel se está referindo, sendo uma local e uma do método.
 
-Assinatura de método
+Assinatura de metodo
 ========
 Assinatura de método é tudo que não é o corpo do método, geralmente, retorno, nome, parâmetros e também o nível de acesso (private, public...). Isso serve para se dár uma identidade ao método. Em uma linguagem onde vários métodos podem ter nomes iguais, precisa se definir qual deles é qual. Sendo assim, se usa a assinatura de método. Dois métodos não podem pertencer a mesma classe e terem suas assinaturas exatamente iguais.
 **Exemplo:**
@@ -86,7 +86,7 @@ int FazAlgumacoisa(int valor) { // faz alguma coisa aqui }
 
 ```
 
-Sobrecarga de método
+Sobrecarga de metodo
 ========
 Sobrecarga de método se dá quando dois métodos ou mais contém o mesmo nome, porém com diferente retorno ou tipos de parâmetros.
 ```java
@@ -195,7 +195,7 @@ final class Final{
 
 ```
 
-Relacionamento de dependência
+Relacionamento de Dependencia
 ========
 Quando uma classe depende da instancia de outra classe para funcionar, é chamado de relacionamento de dependência. Sendo o objeto recebido como argumento pela classe, para funcionar.
 ```java
