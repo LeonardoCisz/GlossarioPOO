@@ -67,9 +67,9 @@ Encapsulamento
 Ocultamento é uma parte do encapsulamento.  
 São usadas as seguintes palavras para determinar o encapsulamento:  
   
-* +Public: Pode ser acessado por afora da classe e qualquer parte do programa.
-* #Protected: Só pode ser acessado pela classe e por suas herenças.
-* -Private: Só pode-se acessar pela mesma classe.
+* +Public: Pode ser acessado fora da classe.
+* #Protected: Apenas a classe e suas heranças tem acesso.
+* -Private: Apenas a própria classe pode acessar.
 
 
 Getters e Setters
