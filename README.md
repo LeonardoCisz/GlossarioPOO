@@ -4,6 +4,7 @@
 
    * [Construtor](#constructor)
    * [Instanciação](#instanciação)
+   * [Encapsulamento](#encapsulamento)
    * [Getters/Setters](#getters-e-setters)
    * [Assinatura de método](#assinatura-de-metodo)
    * [Sobrecarga de método](#sobrecarga-de-metodo)
@@ -58,7 +59,19 @@ public class Main {
 		Car porshe = new Car();
     }
 }
-```
+```  
+
+Encapsulamento
+========
+- Encapsulamento é a restrição de determinados dados de uma classe,tornando assim, disponiveis apenas por meio de métodos.  
+Ocultamento é uma parte do encapsulamento.  
+São usadas as seguintes palavras para determinar o encapsulamento:  
+  
+* +Public: Pode ser acessado por afora da classe e qualquer parte do programa.
+* #Protected: Só pode ser acessado pela classe e por suas herenças.
+* -Private: Só pode-se acessar pela mesma classe.
+
+
 Getters e Setters
 ========
 Getters pegam um valor contido em uma váriavel definida como privada, é usando um método publico Get para conseguir acesso ao valor dessa váriavel.
